@@ -168,3 +168,28 @@ nav ul.link li a:hover {
   max-width: none;
   display: block;
 }
+
+/* ==== ABOUT ==== */
+.about-section {
+  padding: 100px var(--side-pad);
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: clamp(32px, 4vw, 40px);
+  margin-bottom: 24px;
+  letter-spacing: -0.03em;
+}
+
+.about-section p {
+  font-weight: 500;
+  font-size: clamp(20px, 3vw, 32px);
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  color: #717680;
+  margin: 0 auto;
+}
+
+.about-section p span {
+  color: #fdfdfd;
+}
